@@ -148,6 +148,7 @@ I implemented this step in the function `draw_lane()` and `caption()`.  Here is 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
+Here's a [link to my video result](./project_video_output.mp4)
 <video src="./project_video_output.mp4" controls preload></video>
 
 ### Discussion
@@ -155,12 +156,15 @@ I implemented this step in the function `draw_lane()` and `caption()`.  Here is 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 Although I successfully detected the lane of the `project_video.mp4`. But when I apply my pipeline to `challenge_video.mp4` or `harder_challenge_video.mp4`, it can't detect normally. Below are some portions I may need to improve.
-1. Changed lane
-  * Because the polynomial calculation is depended on previous experience. If user change lane, the lane detection algorithm would be fail. So, if user changes lane, I need to re-calculate lane polynomial.
-2. Abnormally detected Lane
-  * If the lane have some lane like shadow or cavity, it may affect my lane detection. I need to improve lane detection algorithm.
-3. Curvature too large.
-  * If the curvature is too large, my lane detction algorithm may fail to detect lane with the background. I may need to incress the degree of polynomial.
-    
 
-3. 
+1. Changed lane
+
+   Because the polynomial calculation is depended on previous experience. If user change lane, the lane detection algorithm would be fail. So, if user changes lane, I need to re-calculate lane polynomial.
+
+2. Abnormally detected Lane
+
+   If the lane have some lane like shadow or cavity, it may affect my lane detection. I need to improve lane detection algorithm.
+
+3. Curvature too large.
+
+   If the curvature is too large, my lane detction algorithm may fail to detect lane with the background. I may need to incress the degree of polynomial.
