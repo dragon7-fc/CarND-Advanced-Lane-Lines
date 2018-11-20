@@ -32,17 +32,7 @@ The goals / steps of this project are the following:
 [image17]: ./output_images/test1_lane.jpg "./output_images/test1_lane.jpg"
 [image18]: ./output_images/test1_capt.jpg "./output_images/test1_capt.jpg"
 
-## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
-
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
-
 ---
-
-### Writeup / README
-
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
-
-You're reading it!
 
 ### Camera Calibration
 
