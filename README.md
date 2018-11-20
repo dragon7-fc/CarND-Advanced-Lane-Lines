@@ -120,6 +120,8 @@ Then I did some other stuff and fit my lane lines with a 2nd order polynomial ki
 |:--------------------:|:---------------------:|:--------------------:|
 | ![alt text][image14] | ![alt text][image15]  | ![alt text][image16] |
 
+The implemented functions are `hist()`, `fit_polynomial()`, and `search_around_poly()`.
+
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
 I did this in `measure_curvature_real()` function of the IPython notebook.
