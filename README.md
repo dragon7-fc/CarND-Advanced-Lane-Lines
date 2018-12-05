@@ -140,7 +140,9 @@ I implemented this step in the function `draw_lane()` and `caption()`.  Here is 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](https://youtu.be/o-emEPubUQY)
+Below is a link to my video result.
+
+[![link to my video result](./output_images/test1_capt.jpg)](https://youtu.be/o-emEPubUQY "link to my video result")
 
 ### Discussion
 
