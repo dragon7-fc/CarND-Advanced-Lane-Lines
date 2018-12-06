@@ -31,6 +31,7 @@ The goals / steps of this project are the following:
 [image16]: ./output_images/test1_poly.jpg "./output_images/test1_poly.jpg"
 [image17]: ./output_images/test1_lane.jpg "./output_images/test1_lane.jpg"
 [image18]: ./output_images/test1_capt.jpg "./output_images/test1_capt.jpg"
+[image19]: ./output_images/project_video_output.gif "./output_images/project_video_output.gif"
 
 ---
 
@@ -142,7 +143,7 @@ I implemented this step in the function `draw_lane()` and `caption()`.  Here is 
 
 Below is a link to my video result.
 
-[![link to my video result](./output_images/test1_capt.jpg)](https://youtu.be/o-emEPubUQY "link to my video result")
+[![alt text][image19]](https://youtu.be/o-emEPubUQY "link to my video result")
 
 ### Discussion
 
