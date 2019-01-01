@@ -114,10 +114,10 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
+Then I did some other stuff and fit my lane lines with a 2nd order polynomial like this:
 
 
-| Apply Histogram      | Sliding WIndow search | Fit a Polynomial     |
+| Apply Histogram      | Sliding Window search | Fit a Polynomial     |
 |:--------------------:|:---------------------:|:--------------------:|
 | ![alt text][image14] | ![alt text][image15]  | ![alt text][image16] |
 
@@ -161,4 +161,4 @@ Although I successfully detected the lane of the `project_video.mp4`. But when I
 
 3. Curvature too large.
 
-   If the curvature is too large, my lane detction algorithm may fail to detect lane with the background. I may need to incress the degree of polynomial.
+   If the curvature is too large, my lane detection algorithm may fail to detect lane with the background. I may need to increase the degree of polynomial.
