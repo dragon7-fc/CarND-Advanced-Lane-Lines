@@ -117,7 +117,7 @@ I verified that my perspective transform was working as expected by drawing the 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial like this:
 
 
-| Apply Histogram      | Sliding Window search | Fit a Polynomial     |
+| Apply Histogram      | Sliding Window Search | Search from Prior     |
 |:--------------------:|:---------------------:|:--------------------:|
 | ![alt text][image14] | ![alt text][image15]  | ![alt text][image16] |
 
